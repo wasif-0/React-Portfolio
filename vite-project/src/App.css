@@ -1,0 +1,115 @@
+* {
+  background-color: #f0f0f0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.headerLeft {
+  position: fixed;
+  width: 70%;
+  left: 0;
+  top: 0;
+  height: 2.5rem;
+  background-color: #006699;
+}
+
+.headerright {
+  position: fixed;
+  width: 30%;
+  right: 0;
+  top: 0;
+  height: 2.5rem;
+  background-color: #FF6633;
+}
+
+.footerLeft {
+  position: fixed;
+  width: 30%;
+  left: 0;
+  bottom: 0;
+  height: 2.5rem;
+  background-color: #006699;
+}
+
+.footeright {
+  position: fixed;
+  width: 70%;
+  right: 0;
+  bottom: 0;
+  height: 2.5rem;
+  background-color: #FF6633;
+}
+
+.logo {
+  height: 9em;
+  padding: 1.5em;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: translateY(8px);
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+  padding: 0 10em;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p>span {
+  color: #006699;
+  font-size: 1.7rem;
+  font-weight: 500;
+
+}
+
+h1 {
+  color: #FF6633;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+h1>span {
+  color: #006699;
+  font-style: italic;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #006699;
+  color: #fff;
+  padding: 0.5em 2.5em;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+}
+
+.btn:hover {
+  background-color: #FF6633;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(255, 102, 51, 0.5);
+  transform: translateY(-2px);
+}
